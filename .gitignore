@@ -5,6 +5,7 @@ ENV/
 env/
 env.bak/
 venv.bak/
+dist
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
