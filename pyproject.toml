@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "terminal-monkeytype"
+version = "1.0.0"
+description = "A clean terminal typing test inspired by Monkeytype"
+readme = "README.md"
+authors = [{ name = "Aaquib Ali" }]
+license = { text = "MIT" }
+dependencies = ["prompt_toolkit", "rich"]
+requires-python = ">=3.8"
+
+[project.scripts]
+terminal-monkeytype = "terminal_monkeytype.main:main"
